@@ -1,0 +1,142 @@
+// Font
+$font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+$font-family-code: Menlo, Monaco, Consolas, Courier, monospace !default;
+
+// Breakpoints
+$breakpoint-verysmall: 450px !default;
+$breakpoint-small: 768px !default;
+$breakpoint-medium: 1024px !default;
+$breakpoint-large: 1200px !default;
+
+// Global Radius
+$global-radius: 2px !default;
+
+// Base Colors
+$background-body: #fff !default;
+$color-body: #202020 !default;
+$color-headings: #000 !default;
+
+$color-link: #256bc9 !default;
+$color-link-hover: #e21e3b !default;
+
+// Baseline
+$base-line: 1.6;
+$base-line-big: 1.5;
+$base-line-small: 1.4;
+$base-line-smaller: 1.3;
+
+// Grid
+$grid-columns: 12 !default;
+$grid-width: 1128 !default; // pixels
+$grid-gutter: $base-line !default;
+$grid-gap: (strip-units($grid-gutter)/($grid-width/100))*1% !default;
+
+// Font Size
+$font-size: 15 !default; // 15 (px) default
+$font-size-big: 120% !default; // 18px or 120% by default
+$font-size-small: 86% !default; // 13px or 86% by default
+$font-size-smaller: 74% !default; // 11px or 74%  by default
+
+// Table
+$font-size-table: 94% !default; // 14px or 94% by default
+
+// Form Labels
+$font-size-form-label: 94% !default; // 14px or 94% by default
+
+// Labels & Badges
+$font-size-label: 11px !default;
+
+// Tools (dropdown, accordion, navigation, pagination, tabs)
+$font-size-tools: 94% !default; // 14px or 94% by default
+
+// Controls
+$font-size-btn-normal: 1.4rem !default; // 14px or 94% by default
+$font-size-btn-small: 1.2rem !default; // 12px or 80% by default
+$font-size-btn-big: 1.8rem !default; // 18px or 120% by default
+$font-size-btn-upper-normal: 1.1rem !default; // 11px or 74% by default
+$font-size-btn-upper-small: 1rem !default; // 10px or 66% by default
+$font-size-btn-upper-big: 1.4rem !default; // 14px or 94% by default
+
+// Headings Size
+$font-size-title: 4.8rem !default; // 48px by default
+$font-size-h1: 3rem !default; // 30px
+$font-size-h2: 2.4rem !default; // 24px
+$font-size-h3: 2rem !default; // 20px
+$font-size-h4: 1.8rem !default; // 18px
+$font-size-h5: 1.6rem !default; // 16px
+$font-size-h6: 1.5rem !default; // 15px
+
+// Half Margin
+$margin-half: 16px !default;
+
+// Mark
+$color-mark: #202020 !default;
+$color-mark-background: #ffd61e !default;
+
+// Dfn
+$color-dfn-border: #202020 !default;
+
+// Pre
+$color-pre-background: rgba(0, 0, 0,  .03) !default;
+
+// Code
+$color-code-background: rgba(0, 0, 0,  .07) !default;
+
+// Kbd
+$color-kbd: rgba(255, 255, 255,  .85) !default;
+$color-kbd-background: #202020 !default;
+
+// Samp
+$color-samp: rgba(255, 255, 255,  .95) !default;
+$color-samp-background: #46a9fc !default;
+
+// Highlighted
+$color-highlighted-background: #f4f4f4 !default;
+
+// Table Colors
+$color-table-stripped: #f8f8f8 !default;
+
+// Controls Height
+$input-height: 4rem !default;
+$input-height-small: 3rem !default;
+$input-height-big: 5.6rem !default;
+
+// Button Padding
+$padding-btn: 0 32px !default;
+$padding-btn-outline: 0 31px !default;
+$padding-btn-small: 0 20px !default;
+$padding-btn-small-outline: 0 19px !default;
+$padding-btn-big: 0 48px !default;
+$padding-btn-big-outline: 0 47px !default;
+
+// Input Padding
+$padding-input:  .9rem 1rem !default;
+$padding-input-big: 1.5rem 1.2rem !default;
+$padding-input-small:  .7rem 1rem !default;
+
+// Input Border Style
+$input-border-size: 1px !default;
+$color-input-background: #fff !default;
+$color-input-border: #dfdfdf !default;
+
+// Input Focus
+$color-input-background-focus: #fff !default;
+$color-input-border-focus: #222 !default;
+
+// Input Color
+$color-input: rgba(0, 0, 0, .85) !default;
+
+// Input Append & Prepend
+$background-input-append: #efefef !default;
+$color-input-append: rgba(0, 0, 0, .6) !default;
+
+// Fieldset
+$color-fieldset-border: rgba(0, 0, 0, .1) !default;
+$fieldset-border-size: 1px !default;
+
+// Extra Colors
+$color-default: #e5e5e5 !default;
+$color-primary: #2f77d1 !default;
+$color-success: #0A8754 !default;
+$color-error: #d11149 !default;
+$color-warning: #f4d31e !default;
