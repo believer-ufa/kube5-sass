@@ -1,0 +1,24 @@
+{
+  "name": "kube5-sass",
+  "homepage": "https://github.com/believer-ufa/kube5-sass",
+  "authors": [
+    "Roman Akhmadullin"
+  ],
+  "description": "Simple port to use Kube Framework in Sass-based projects.",
+  "main": [
+    "dist/kube.css",
+    "src/kube.scss"
+  ],
+  "keywords": [
+    "twbs",
+    "bootstrap",
+    "sass"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "Gruntfile.js",
+    "package.json"
+  ],
+  "license" : "MIT"
+}
