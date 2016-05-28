@@ -33,6 +33,8 @@ $breakpoint-medium: 1024px !default;
 $breakpoint-large: 1200px !default;
 ```
 
+And using this new variable in Grid styles.
+
 # Issues
 
 Something don't converted successfully :(
@@ -40,9 +42,10 @@ Something don't converted successfully :(
 ### retina-image mixin
 
 ```less
-@mixin retina-image($path, $w: auto, $h: auto) {
-  background-image: url($path);
-  $at2x_path: ~`#{$path}.replace(/\.\w+$/, function(match) { return "$2x" + match; })`;
+// original mixin
+.retina-image(@path, @w: auto, @h: auto) {
+  background-image: url(@path);
+  @at2x_path: ~`@{path}.replace(/\.\w+$/, function(match) { return "@2x" + match; })`;
 
   @media
   only screen and (-webkit-min-device-pixel-ratio: 2),
@@ -51,8 +54,8 @@ Something don't converted successfully :(
   only screen and (        min-device-pixel-ratio: 2),
   only screen and (                min-resolution: 192dpi),
   only screen and (                min-resolution: 2dppx) {
-    background-image: url($at2x_path);
-    background-size: $w $h;
+    background-image: url(@at2x_path);
+    background-size: @w @h;
   }
 }
 ```
